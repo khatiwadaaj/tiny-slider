@@ -1,0 +1,36 @@
+.main-container {
+  padding-left: 55px !important;
+  padding-right: 55px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.tns-nav > [aria-controls] {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 2px solid #000;
+}
+.tns-nav > [aria-selected="true"] {
+  background: #999;
+}
+
+.tns-controls {
+  display: none;
+}
+
+.tns-nav {
+  position: absolute;
+  top: 480px;
+  left: 625px;
+  z-index: 1;
+}
+
+.hero-img,
+.tns-nav {
+  max-width: 100%;
+  /* height: auto; */
+}
